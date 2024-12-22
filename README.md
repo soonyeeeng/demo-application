@@ -14,6 +14,7 @@ Note*
 In order for the map search api to work, please remember to create an environment file (.env) on the root
 Paste the following into the .env file, and replace "your-google-api-key" to your generated api key from google.
 ```.env
+# .env
 GOOGLE_API_HOST=https://maps.googleapis.com/maps/api/place
 GOOGLE_API_KEY=your-google-api-key
 ```
