@@ -10,6 +10,14 @@ First, you will need to start **Metro**, the JavaScript _bundler_ that ships _wi
 
 To start Metro, run the following command from the _root_ of your React Native project:
 
+Note*
+In order for the map search api to work, please remember to create an environment file (.env) on the root
+Paste the following into the .env file, and replace "your-google-api-key" to your generated api key from google.
+
+GOOGLE_API_HOST=https://maps.googleapis.com/maps/api/place
+GOOGLE_API_KEY=your-google-api-key
+
+
 ```bash
 # using npm
 npm start
