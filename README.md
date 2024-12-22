@@ -41,6 +41,29 @@ npm run android
 yarn android
 ```
 
+Google API Key setup in AndroidManifest.xml
+```AndroidManifest.xml
+
+   # android/app/src/main/AndroidManifest.xml
+   <manifest
+      ...>
+      <application
+         ...
+         ...>
+            <meta-data
+              android:name="com.google.android.geo.API_KEY"
+              android:value="AIzaSyChEWA-PWMV8Komy0wH2i1RkQ04UQ4tSRw" />
+      
+            <activity>
+            ...
+            ...
+            </activity>
+      </application>
+   </manifest>
+
+```
+
+
 ### For iOS
 
 ```bash
